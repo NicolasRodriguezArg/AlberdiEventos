@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*----------heaader----------*/
+
+header {
+    position: fixed;
+    background-color: rgb(26, 26, 247);
+    width: 100%;
+}
+
+.header-container {
+    margin: auto;
+    max-width: 1700px;
+    padding: 0.5rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1.8rem;
+}
+
+h1 {
+    display: inline;
+}
+
+nav {
+    float: right;
+    margin: 9px;
+}
+
+header li {
+    display: inline;
+    list-style: none;
+}
+
+/*-----presentation--------*/
+
+.presentation {
+    height: 720px;
+    font-size: 25px;
+}
+
+.presentation-video {
+    height: 720px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.presentation-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.presentation-content {
+    color: white;
+    text-align: center;
+    padding: 285px 0;
+    margin: auto;
+}
+
+/*-------about-----*/
+
+.about {
+    height: 1000px;
+    font-size: 18px;
+}
+
+.about-container {
+    width: 50%;
+    height: 50%;
+
+}
+
+.about-content {
+    text-align: justify;
+    padding: 130px 30px;
+}
+.about-title {
+    margin: 2rem;
+    text-align: center;
+}
+
+#about-img1 {
+    background: url(https://media.traveler.es/photos/6202907114f81ef9b3d9454c/16:9/w_1999,h_1124,c_limit/Alberto%20Rami%CC%81rez%20Studio%202_%20Flores%20de%20Virginia%20Florista.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img2 {
+    background: url(https://www.creativefabrica.com/wp-content/uploads/2020/08/24/Monogram-AE-Logo-Graphics-5097869-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------menu-----------*/
+
+.socios {
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2017/08/12/18/15/rings-2634929__480.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.socios-inner {
+    padding: 3rem;
+    color: white;
+}
+
+.socios-title {
+    margin: 2rem;
+}
+
+.socios ul {
+    padding: 0;
+}
+
+.socios ul li {
+    list-style: none;
+    padding: 2rem;
+}
+
+.socios ul li div {
+    display: inline;
+    padding: 4rem;
+}
+
+/*------hacete-socio------*/
+
+.hacete-socio {
+    height: 550px;
+    text-align: center;
+}
+
+.form-central {
+    display: block;
+}
+
+.form-left {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.form-right {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.hacete-socio label {
+display: block;
+padding: 1.2rem;
+}
+
+input[type="text"], input[type="time"], input [type="date"], input[type="email"], input[type="number"] {
+    width: 12rem;
+}
+
+textarea {
+    margin: 2rem;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    margin: 1rem;
+    height: 2rem;
+    width: 8rem;
+    display: block;
+    margin: auto;
+}
+
+/*-------footer---------*/
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 2rem;
+    padding: 1rem;
+}
